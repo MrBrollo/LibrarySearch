@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CompressionPlugin = require('compression-webpack-plugin')
 
 module.exports = {
     entry: {
@@ -12,7 +13,6 @@ module.exports = {
     module: {
         rules: [
             loaders, [{
-                loader: 'babel',
                 exclude: /node_modules/
             }]
         ]

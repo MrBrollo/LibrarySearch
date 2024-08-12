@@ -1,0 +1,16 @@
+{
+  "name": "progetto-javascript-advanced-di-matteo-ricci",
+  "version": "1.0.0",
+  "description": "A search engine that allows the user to search for book categories and then displays titles, authors and a brief description.",
+  "main": "scripts.js",
+  "scripts": {
+    "dev": "webpack server",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0"
+  }
+}
